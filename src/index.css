@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-container {
+  @apply bg-[#211F23] bg-opacity-35 drop-shadow-2xl rounded-full py-[25px] px-[30px] flex justify-between gap-[42px];
+}
+.download-btn {
+  @apply w-fit font-bold font-nunito text-black bg-white hover:bg-slate-200 active:bg-slate-300 !important;
+}
+.exp-btn {
+  @apply w-fit font-medium font-nunito text-c-purple-300 !bg-transparent hover:bg-black active:bg-black shadow-black !important;
+}
+
+.slick-slide {
+  @apply mr-[26px] md:mr-[64px] !important;
+}
