@@ -114,8 +114,8 @@ export const TECHNOLOGIES_ITEMS = [
       {
         id: 4,
         name: "Echarts",
-        image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/echarts/echarts-original.svg",
+        // image:
+        //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/echarts/echarts-original.svg",
       },
     ],
   },
@@ -217,7 +217,7 @@ export const DATA_ABOUT = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     experience: "Telecomunication Engineer",
     status: "Final year student",
     startDate: "Aug 2022",

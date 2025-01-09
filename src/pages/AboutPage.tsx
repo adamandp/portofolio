@@ -110,6 +110,7 @@ export default function AboutPage() {
             initial={{ y: "10%" }}
             whileInView={{ y: "0%" }}
             transition={{ duration: 0.5, type: "spring" }}
+            key={item.id}
           >
             <ContentContainer {...item} />
           </motion.div>

@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 
 export default function MainPage() {
   return (
-    <main className="pt-[clamp(98px,24.936vw,170px)] flex flex-col gap-[clamp(50px,22.901vw,100px)]">
+    <main className="pt-[clamp(98px,24.936vw,170px)] flex flex-col gap-[clamp(50px,22.901vw,100px)] overflow-hidden">
       <section className="grid md:grid-cols-2 place-items-center">
         <motion.div
           initial={{ x: "100%" }}

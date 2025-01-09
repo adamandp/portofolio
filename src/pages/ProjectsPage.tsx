@@ -10,6 +10,7 @@ export default function ProjectsPage() {
           initial={{ y: "100%" }}
           whileInView={{ y: "0%" }}
           transition={{ duration: 0.5, type: "spring", y: 100 }}
+          key={item.id}
         >
           <ProjectCard {...item} key={item.id} />
         </motion.div>
