@@ -3,15 +3,28 @@
 @tailwind utilities;
 
 .nav-container {
-  @apply bg-[#211F23] bg-opacity-35 drop-shadow-2xl rounded-full py-[25px] px-[30px] flex justify-between gap-[42px];
-}
-.download-btn {
-  @apply w-fit font-bold font-nunito text-black bg-white hover:bg-slate-200 active:bg-slate-300 !important;
-}
-.exp-btn {
-  @apply w-fit font-medium font-nunito text-c-purple-300 !bg-transparent hover:bg-black active:bg-black shadow-black !important;
+  @apply bg-[#211F23] bg-opacity-80 drop-shadow-2xl rounded-full py-[25px] px-[30px] flex justify-between gap-[42px];
 }
 
-.slick-slide {
-  @apply mr-[26px] md:mr-[64px] !important;
+.costum-button-explore{
+  @apply text-gray-800 hover:text-gray-900 active:text-gray-950 !important
+}
+
+.tech-carousel {
+  .slick-track {
+    .slick-slide {
+      @apply px-2;
+      .carousel-items {
+        @apply border-[1px] border-solid border-c-gray-gradient rounded-xl px-[34px] py-[26px];
+      }
+    }
+    .slick-slide.slick-center {
+      .carousel-items {
+        @apply px-[38px] py-[30px];
+      }
+    }
+  }
+  .slick-dots li button:before {
+    @apply text-gray-400;
+  }
 }
