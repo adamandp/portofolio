@@ -22,7 +22,7 @@ export default function MainPage() {
           className="md:order-2 w-full justify-items-center md:justify-items-end"
         >
           <img
-            src="../src/assets/dam.jpeg"
+            src="/assets/dam.jpeg"
             className="rounded-full w-[25.517vw] max-w-[390px]"
           />
         </motion.div>
