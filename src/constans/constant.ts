@@ -176,17 +176,17 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "Mengembangkan reporting dashboard sesuai permintaan klien menggunakan teknologi modern seperti React.js, TypeScript, dan Tailwind CSS. Proses pengembangan berfokus pada pembuatan antarmuka pengguna (UI) yang responsif serta integrasi data yang dinamis untuk memastikan pengalaman pengguna yang optimal dan sesuai kebutuhan bisnis.",
+          "Developing reporting dashboards as per client's request using modern technologies such as React.js, TypeScript, and Tailwind CSS. The development process focuses on creating a responsive user interface (UI) and dynamic data integration to ensure an optimal user experience and business needs.",
       },
       {
         id: 2,
         description:
-          "Menangani dan memperbaiki bug pada dashboard dengan pendekatan analisis masalah secara mendalam. Memastikan performa website tetap stabil dan berjalan dengan lancar, sekaligus meningkatkan kualitas kode untuk mendukung efisiensi pengembangan di masa mendatang.",
+          "Handle and fix bugs on the dashboard with an in-depth problem analysis approach. Ensure website performance remains stable and runs smoothly, while improving code quality to support future development efficiency.",
       },
       {
         id: 3,
         description:
-          "Bekerja sama secara intensif dengan tim backend untuk mengintegrasikan data secara mulus ke dalam dashboard. Proses ini melibatkan diskusi mendalam tentang struktur API, untuk memastikan dashboard yang dibangun akurat, efisien, dan memenuhi kebutuhan pengguna secara menyeluruh.",
+          "Work closely with the backend team to seamlessly integrate data into the dashboard. This process involves in-depth discussions about the API structure, to ensure the dashboard is accurate, efficient, and meets the overall needs of the user.",
       },
     ],
   },
@@ -202,17 +202,17 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "Memahami lebih dalam konsep-konsep inti dari React.js, termasuk komponen, state management, dan penggunaan hooks, untuk membangun aplikasi web yang dinamis dan interaktif",
+          "Deepen your understanding of the core concepts of React.js, including components, state management, and the use of hooks, to build dynamic and interactive web applications.",
       },
       {
         id: 2,
         description:
-          "Mengonversi desain yang dibuat di Figma menjadi aplikasi web yang fungsional dengan kode yang terstruktur dan sesuai standar, memastikan hasil akhir yang sesuai dengan visi desain.",
+          "Convert designs created in Figma into functional web applications with structured, standards-compliant code, ensuring the end result matches the design vision.",
       },
       {
         id: 3,
         description:
-          "Membangun sebuah website berita sebagai proyek nyata, melibatkan pengintegrasian data artikel, navigasi intuitif, dan desain yang ramah pengguna, dengan fokus pada fungsionalitas dan estetika.",
+          "Building a news website as a real project, involves integrating article data, intuitive navigation, and user-friendly design, with a focus on functionality and aesthetics.",
       },
     ],
   },
@@ -228,17 +228,7 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "Mengembangkan reporting dashboard sesuai permintaan klien menggunakan teknologi modern seperti React.js, TypeScript, dan Tailwind CSS. Proses pengembangan berfokus pada pembuatan antarmuka pengguna (UI) yang responsif serta integrasi data yang dinamis untuk memastikan pengalaman pengguna yang optimal dan sesuai kebutuhan bisnis.",
-      },
-      {
-        id: 2,
-        description:
-          "Menangani dan memperbaiki bug pada dashboard dengan pendekatan analisis masalah secara mendalam. Memastikan performa website tetap stabil dan berjalan dengan lancar, sekaligus meningkatkan kualitas kode untuk mendukung efisiensi pengembangan di masa mendatang.",
-      },
-      {
-        id: 3,
-        description:
-          "Bekerja sama secara intensif dengan tim backend untuk mengintegrasikan data secara mulus ke dalam dashboard. Proses ini melibatkan diskusi mendalam tentang struktur API, untuk memastikan dashboard yang dibangun akurat, efisien, dan memenuhi kebutuhan pengguna secara menyeluruh.",
+          "I am an active student of the Telecommunication Engineering Study Program of Bandung State Polytechnic in the 4th semester who is highly self-confident with extensive knowledge of Programming and the Internet of Things. I have also worked on several projects about programming in between my lectures which have made me superior in programming applications. In addition, I am also a fairly active student and contribute to organizational activities. In that experience, I am able to think critically in urgent matters, solve several problems under pressure, and work well in a team.",
       },
     ],
   },
