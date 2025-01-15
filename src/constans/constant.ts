@@ -310,7 +310,7 @@ export const PROJECTS_DATA = [
   },
   {
     id: 2,
-    img: "/assets/Projects2.png",
+    img: "/assets/projects2.png",
     title: "Admin Dashboard",
     to: "/projects",
     tools: [
@@ -378,7 +378,7 @@ export const PROJECTS_DATA = [
   },
   {
     id: 3,
-    img: "/assets/Projects3.png",
+    img: "/assets/projects3.png",
     title: "Point of Sales",
     to: "/projects",
     tools: [
