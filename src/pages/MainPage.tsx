@@ -44,7 +44,7 @@ export default function MainPage() {
                 initial={{ x: "-100%" }}
                 whileInView={{ x: "0%" }}
                 transition={{ duration: 0.9, type: "spring", y: 100 }}
-                href="https://drive.google.com/file/d/1N8lbatmWgVa6v38AxVh5QFOaXOsehUlI/view"
+                href="https://drive.google.com/file/d/1BRcxTqtv62UgqYtJv7f6yTFUILJzIcve/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
