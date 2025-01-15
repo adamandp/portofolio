@@ -10,7 +10,7 @@ export default function ProjectsPage() {
         className="font-raleway text-[clamp(16px,1.25vw,24px)] text-[#C8C8C8] text-center max-w-[655px]"
       >
         {
-          "< For the convenience of client privacy, the projects displayed here are representations of the projects being worked on, not the actual projects."
+          "< For the convenience of client privacy, the projects displayed here are representations of the projects being worked on, not the actual projects. "
         }
         {" />"}
       </motion.h1>
