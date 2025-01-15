@@ -10,10 +10,9 @@ export default function ProjectsPage() {
         className="font-raleway text-[clamp(16px,1.25vw,24px)] text-[#C8C8C8] text-center max-w-[655px]"
       >
         {
-          "< Here, you can know me a little more and see my whole experience as a "
+          "< For the convenience of client privacy, the projects displayed here are representations of the projects being worked on, not the actual projects."
         }
-        <span className="font-semibold text-white">Front-End Engineer</span>
-        {". />"}
+        {" />"}
       </motion.h1>
       {PROJECTS_DATA.map((item) => (
         <motion.div
