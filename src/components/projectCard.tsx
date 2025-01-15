@@ -5,7 +5,7 @@ export default function ProjectCard({
   to,
 }: dataProjectsType) {
   return (
-    <main className="border-[#272727] border-[2px] rounded-[clamp(40px,4.167vw,80px)] py-[clamp(43px,3.333vw,64px)] px-[clamp(38px,4.167vw,80px)] font-raleway flex flex-col lg:flex-row gap-[clamp(14px,2.083vw,40px)]">
+    <main className="border-[#272727] border-[2px] rounded-[clamp(40px,4.167vw,80px)] py-[clamp(43px,3.333vw,64px)] px-[clamp(38px,4.167vw,80px)] font-raleway flex flex-col lg:flex-row gap-[clamp(14px,2.083vw,40px)] w-full">
       <a
         href={to}
         target="_blank"
