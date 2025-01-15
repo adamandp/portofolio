@@ -1,10 +1,20 @@
 import ProjectCard from "../components/projectCard";
-import { PROJECTS_DATA } from "../constans/constant";
-import { motion } from "framer-motion";
 
 export default function ProjectsPage() {
   return (
-    <main className="h-screen flex flex-col gap-[clamp(32px,5vw,96px)] pt-[clamp(83px,8.333vw,160px)]">
+    <main className="min-h-screen flex flex-col justify-center items-center gap-[clamp(32px,5vw,96px)] pt-[clamp(83px,8.333vw,160px)] pb-[100px]">
+      <motion.h1
+        initial={{ x: "-100%" }}
+        whileInView={{ x: "0%" }}
+        transition={{ duration: 0.5, type: "spring", y: 100 }}
+        className="font-raleway text-[clamp(16px,1.25vw,24px)] text-[#C8C8C8] text-center max-w-[655px]"
+      >
+        {
+          "< Here, you can know me a little more and see my whole experience as a "
+        }
+        <span className="font-semibold text-white">Front-End Engineer</span>
+        {". />"}
+      </motion.h1>
       {PROJECTS_DATA.map((item) => (
         <motion.div
           initial={{ y: "100%" }}

@@ -1,7 +1,3 @@
-import { Link, useLocation } from "react-router";
-import { NAV_ITEMS } from "./constans/constant";
-import AppRouter from "./routes/router";
-
 export default function App() {
   const location = useLocation();
 
@@ -26,7 +22,7 @@ export default function App() {
   };
 
   return (
-    <main className="bg-black text-white px-[clamp(42px,10.687vw,200px)] select-none">
+    <main className="bg-black min-h-screen text-white px-[clamp(42px,10.687vw,200px)] select-none">
       <header className="hidden pt-[clamp(20px,5.089vw,30px)] md:grid md:place-items-center">
         <Navbar />
       </header>

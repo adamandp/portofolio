@@ -1,7 +1,3 @@
-import { Button, ConfigProvider } from "antd";
-import { Link } from "react-router";
-import { dataProjectsType } from "../constans/types";
-
 export default function ProjectCard({
   img,
   title,

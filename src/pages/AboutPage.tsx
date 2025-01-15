@@ -1,8 +1,3 @@
-import { Button, ConfigProvider } from "antd";
-import { DataAboutType } from "../constans/types";
-import { DATA_ABOUT } from "../constans/constant";
-import { motion } from "motion/react";
-
 function ContentContainer({
   experience,
   status,
@@ -80,9 +75,7 @@ export default function AboutPage() {
         {
           "< Here, you can know me a little more and see my whole experience as a "
         }
-        <span className="font-semibold text-white">
-          Front-End Software Engineer
-        </span>
+        <span className="font-semibold text-white">Front-End Engineer</span>
         {". />"}
       </motion.h1>
       <motion.a
@@ -93,12 +86,17 @@ export default function AboutPage() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <ConfigProvider theme={{ token: { colorPrimary: "#FFFFFF" } }}>
+        <ConfigProvider
+          theme={{
+            token: { colorPrimary: "#FFFFFF" },
+            components: { Button: { primaryColor: "#000000" } },
+          }}
+        >
           <Button
             type="primary"
             size="large"
             shape="round"
-            className="text-black font-semibold mt-[clamp(38px,2.292vw,44px)]"
+            className="font-semibold mt-[clamp(38px,2.292vw,44px)]"
           >
             Download CV
           </Button>

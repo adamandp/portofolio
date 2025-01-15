@@ -308,4 +308,130 @@ export const PROJECTS_DATA = [
       },
     ],
   },
+  {
+    id: 2,
+    img: "/assets/Projects2.png",
+    title: "Admin Dashboard",
+    to: "/projects",
+    tools: [
+      {
+        id: 0,
+        title: "TypeScript",
+        link: "",
+      },
+      {
+        id: 1,
+        title: "Next.js",
+        link: "",
+      },
+      {
+        id: 2,
+        title: "Maplibre",
+        link: "",
+      },
+      {
+        id: 3,
+        title: "Zustand",
+        link: "",
+      },
+      {
+        id: 4,
+        title: "Redux",
+        link: "",
+      },
+      {
+        id: 5,
+        title: "Tanstack",
+        link: "",
+      },
+      {
+        id: 6,
+        title: "Axios",
+        link: "",
+      },
+      {
+        title: "Material UI",
+        id: 7,
+        link: "",
+      },
+      {
+        id: 8,
+        title: "Tailwind CSS",
+        link: "",
+      },
+      {
+        id: 9,
+        title: "Ant Design",
+        link: "",
+      },
+      {
+        id: 10,
+        title: "Framer Motion",
+        link: "",
+      },
+      {
+        id: 11,
+        title: "Animate.css",
+        link: "",
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: "/assets/Projects3.png",
+    title: "Point of Sales",
+    to: "/projects",
+    tools: [
+      {
+        id: 0,
+        title: "TypeScript",
+        link: "",
+      },
+      {
+        id: 1,
+        title: "Nuxt",
+        link: "",
+      },
+      {
+        id: 2,
+        title: "Vue",
+        link: "",
+      },
+      {
+        id: 3,
+        title: "Pinia",
+        link: "",
+      },
+      {
+        id: 4,
+        title: "Tanstack",
+        link: "",
+      },
+      {
+        id: 5,
+        title: "Axios",
+        link: "",
+      },
+      {
+        id: 6,
+        title: "Acme UI",
+        link: "",
+      },
+      {
+        id: 7,
+        title: "Tailwind CSS",
+        link: "",
+      },
+      {
+        id: 8,
+        title: "Framer Motion",
+        link: "",
+      },
+      {
+        id: 10,
+        title: "Animate.css",
+        link: "",
+      },
+    ],
+  },
 ];
