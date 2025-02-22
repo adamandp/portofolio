@@ -65,27 +65,39 @@ export const TECHNOLOGIES_ITEMS = [
     tools: [
       {
         id: 1,
-        name: "React",
+        name: "Next JS",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
       },
       {
         id: 2,
-        name: "Vue JS",
+        name: "Nuxt JS",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg",
       },
       {
         id: 3,
+        name: "Nest JS",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+      },
+      {
+        id: 4,
         name: "Vite",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
       },
       {
-        id: 4,
-        name: "Mock Service Worker",
+        id: 5,
+        name: "React JS",
         image:
-          "https://images.seeklogo.com/logo-png/44/1/msw-mock-service-worker-logo-png_seeklogo-446936.png?v=1957131809884597008",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        id: 6,
+        name: "Vue JS",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
       },
     ],
   },
@@ -113,9 +125,14 @@ export const TECHNOLOGIES_ITEMS = [
       },
       {
         id: 4,
-        name: "Echarts",
-        // image:
-        //   "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/echarts/echarts-original.svg",
+        name: "Shadcn",
+        image: "https://ui.shadcn.com/apple-touch-icon.png",
+      },
+      {
+        id: 5,
+        name: "Maplibre",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maplibre/maplibre-original.svg",
       },
     ],
   },
@@ -158,6 +175,30 @@ export const TECHNOLOGIES_ITEMS = [
         name: "TypeScript",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        id: 3,
+        name: "Python",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+      },
+      {
+        id: 4,
+        name: "Java",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      },
+      {
+        id: 5,
+        name: "Kotlin",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+      },
+      {
+        id: 6,
+        name: "C",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
       },
     ],
   },
