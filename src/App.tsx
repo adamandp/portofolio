@@ -1,35 +1,27 @@
+import CarouselSection from "./components/CarouselSection";
+import ExperienceSection from "./components/ExperienceSection";
+import FooterSection from "./components/Footersection";
+import MainSection from "./components/MainSection";
+import Navbar from "./components/Navbar";
+import ProjectSection from "./components/ProjectSection";
+
 export default function App() {
-  const location = useLocation();
-
-  const Navbar = () => {
-    return (
-      <div className="nav-container w-fit">
-        {NAV_ITEMS.map((item, index) => (
-          <Link to={`/${item}`} key={index}>
-            <button
-              className={`${
-                location.pathname === `/${item}`
-                  ? "text-white"
-                  : "text-c-purple-300"
-              } hover:text-[18px] hover:duration-200 hover:ease-in-out`}
-            >
-              {item}
-            </button>
-          </Link>
-        ))}
-      </div>
-    );
-  };
-
   return (
-    <main className="bg-black min-h-screen text-white px-[clamp(42px,10.687vw,200px)] select-none">
-      <header className="hidden pt-[clamp(20px,5.089vw,30px)] md:grid md:place-items-center">
-        <Navbar />
-      </header>
-      <AppRouter />
-      <footer className="fixed top-[85%] left-1/2 -translate-x-1/2 md:hidden">
-        <Navbar />
-      </footer>
+    <main className="bg-black min-h-screen text-white select-none px-[10%] lg:px-c-50 font-nunito overflow-hidden">
+      <div className="max-w-[1920px] mx-auto relative">
+        <header className="hidden md:grid place-items-center pt-c-10">
+          <Navbar />
+        </header>
+        <MainSection />
+        <ExperienceSection />
+        <ProjectSection />
+        <CarouselSection />
+        <FooterSection />
+
+        <footer className="fixed bottom-[5%] left-1/2 -translate-x-1/2 md:hidden">
+          <Navbar />
+        </footer>
+      </div>
     </main>
   );
 }

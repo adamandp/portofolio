@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "./spacing.css";
+@theme reference {
+  --color-c-gray-900: #0c0c0d;
+  --color-c-gray-800: #131313;
+  --color-c-gray-700: #272727;
+  --color-c-gray-400: #6f6f6f;
+  --color-c-gray-300: #c8c8c8;
+  --color-c-gray-500: #5fb9b0;
+  --color-c-purple-300: #b292ff;
+  --color-c-gray-gradient: linear-gradient(
+    180deg,
+    rgba(35, 35, 35, 1) 0%,
+    rgba(67, 67, 67, 1) 49%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --font-syne: "Syne", "sans-serif";
+  --font-nunito: "Nunito", "sans-serif";
+  --font-raleway: "Raleway", "sans-serif";
+}
+
+/* .nav-container {
+  @apply bg-[#211F23]  drop-shadow-2xl rounded-full py-[25px] px-[30px] flex justify-between gap-[42px];
+} */
+
+.tech-carousel {
+  .slick-list {
+    @apply h-auto;
+    .slick-slide {
+      @apply px-2;
+      .carousel-items {
+        @apply border-[1px] border-solid border-c-gray-gradient rounded-xl px-[34px] py-[26px];
+      }
+    }
+  }
+  .slick-slide.slick-center {
+    .carousel-items {
+      @apply px-[38px] py-[30px];
+    }
+  }
+
+  .slick-dots li button:before {
+    @apply text-gray-400 text-[15px];
+  }
+}

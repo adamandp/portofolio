@@ -1,5 +1,3 @@
-export const NAV_ITEMS: string[] = ["Dam", "About", "Projects"];
-
 export const projectsCarousel = {
   adaptiveHeight: true,
   className: "center",
@@ -130,9 +128,9 @@ export const TECHNOLOGIES_ITEMS = [
       },
       {
         id: 5,
-        name: "Maplibre",
+        name: "Mapbox",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maplibre/maplibre-original.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mapbox/mapbox-original.svg",
       },
     ],
   },
@@ -217,17 +215,7 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "Developing reporting dashboards as per client's request using modern technologies such as React.js, TypeScript, and Tailwind CSS. The development process focuses on creating a responsive user interface (UI) and dynamic data integration to ensure an optimal user experience and business needs.",
-      },
-      {
-        id: 2,
-        description:
-          "Handle and fix bugs on the dashboard with an in-depth problem analysis approach. Ensure website performance remains stable and runs smoothly, while improving code quality to support future development efficiency.",
-      },
-      {
-        id: 3,
-        description:
-          "Work closely with the backend team to seamlessly integrate data into the dashboard. This process involves in-depth discussions about the API structure, to ensure the dashboard is accurate, efficient, and meets the overall needs of the user.",
+          "Developed responsive dashboards using React.js, TypeScript, and Tailwind CSS, fixed bugs, and collaborated with backend teams to ensure seamless API integration.",
       },
     ],
   },
@@ -243,17 +231,7 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "Deepen your understanding of the core concepts of React.js, including components, state management, and the use of hooks, to build dynamic and interactive web applications.",
-      },
-      {
-        id: 2,
-        description:
-          "Convert designs created in Figma into functional web applications with structured, standards-compliant code, ensuring the end result matches the design vision.",
-      },
-      {
-        id: 3,
-        description:
-          "Building a news website as a real project, involves integrating article data, intuitive navigation, and user-friendly design, with a focus on functionality and aesthetics.",
+          "Learned React.js fundamentals, converted Figma designs into functional websites, and built a real-world news website with good UI/UX and functionality.",
       },
     ],
   },
@@ -269,7 +247,7 @@ export const DATA_ABOUT = [
       {
         id: 1,
         description:
-          "I am an active student of the Telecommunication Engineering Study Program of Bandung State Polytechnic in the 4th semester who is highly self-confident with extensive knowledge of Programming and the Internet of Things. I have also worked on several projects about programming in between my lectures which have made me superior in programming applications. In addition, I am also a fairly active student and contribute to organizational activities. In that experience, I am able to think critically in urgent matters, solve several problems under pressure, and work well in a team.",
+          "Active student with strong programming and IoT knowledge, involved in various projects and organizations, skilled in problem-solving and teamwork under pressure.",
       },
     ],
   },
@@ -279,200 +257,113 @@ export const PROJECTS_DATA = [
   {
     id: 1,
     img: "/assets/Projects1.png",
-    title: "Ice Cream Website",
-    to: "https://ice-cream-pi.vercel.app/",
+    title: "E-Commerce",
+    to: "https://dam-ecommerce.vercel.app/",
     tools: [
-      {
-        id: 0,
-        title: "TypeScript",
-        link: "",
-      },
-      {
-        id: 1,
-        title: "Vite",
-        link: "",
-      },
-      {
-        id: 2,
-        title: "React.js",
-        link: "",
-      },
-      {
-        id: 3,
-        title: "React-router",
-        link: "",
-      },
-      {
-        id: 4,
-        title: "Redux",
-        link: "",
-      },
-      {
-        id: 5,
-        title: "Mock Service Worker",
-        link: "",
-      },
-      {
-        id: 6,
-        title: "Tanstack",
-        link: "",
-      },
-      {
-        title: "Axios",
-        id: 7,
-        link: "",
-      },
-      {
-        id: 8,
-        title: "Tailwind CSS",
-        link: "",
-      },
-      {
-        id: 9,
-        title: "Ant Design",
-        link: "",
-      },
-      {
-        id: 10,
-        title: "Framer Motion",
-        link: "",
-      },
-      {
-        id: 11,
-        title: "React-slick",
-        link: "",
-      },
-      {
-        id: 12,
-        title: "Animate.css",
-        link: "",
-      },
+      { id: 0, title: "TypeScript" },
+      { id: 1, title: "Next.js" },
+      { id: 2, title: "Tailwind CSS" },
+      { id: 3, title: "Shadcn UI" },
+      { id: 4, title: "Radix UI" },
+      { id: 5, title: "Redux Toolkit" },
+      { id: 6, title: "TanStack Query" },
+      { id: 7, title: "Axios" },
+      { id: 8, title: "Embla Carousel" },
+      { id: 9, title: "Framer Motion" },
     ],
   },
   {
     id: 2,
-    img: "/assets/projects2.png",
+    img: "/assets/Projects2.png",
     title: "Admin Dashboard",
-    to: "/projects",
+    to: "https://dam-admin-dashboard.vercel.app/dashboard",
     tools: [
-      {
-        id: 0,
-        title: "TypeScript",
-        link: "",
-      },
-      {
-        id: 1,
-        title: "Next.js",
-        link: "",
-      },
-      {
-        id: 2,
-        title: "Maplibre",
-        link: "",
-      },
-      {
-        id: 3,
-        title: "Zustand",
-        link: "",
-      },
-      {
-        id: 4,
-        title: "Redux",
-        link: "",
-      },
-      {
-        id: 5,
-        title: "Tanstack",
-        link: "",
-      },
-      {
-        id: 6,
-        title: "Axios",
-        link: "",
-      },
-      {
-        title: "Material UI",
-        id: 7,
-        link: "",
-      },
-      {
-        id: 8,
-        title: "Tailwind CSS",
-        link: "",
-      },
-      {
-        id: 9,
-        title: "Ant Design",
-        link: "",
-      },
-      {
-        id: 10,
-        title: "Framer Motion",
-        link: "",
-      },
-      {
-        id: 11,
-        title: "Animate.css",
-        link: "",
-      },
+      { id: 0, title: "TypeScript" },
+      { id: 1, title: "Next.js" },
+      { id: 3, title: "Tailwind CSS" },
+      { id: 4, title: "Shadcn UI" },
+      { id: 5, title: "TanStack Query & Table" },
+      { id: 6, title: "Axios" },
+      { id: 7, title: "Maplibre GL" },
+      { id: 8, title: "Framer Motion" },
+      { id: 9, title: "Radix UI" },
+      { id: 10, title: "Recharts" },
     ],
   },
   {
     id: 3,
-    img: "/assets/projects3.png",
-    title: "Point of Sales",
-    to: "/projects",
+    img: "/assets/Projects3.png",
+    title: "Shipping Cost Calculator",
+    to: "https://rate-rush.vercel.app/",
     tools: [
-      {
-        id: 0,
-        title: "TypeScript",
-        link: "",
-      },
-      {
-        id: 1,
-        title: "Nuxt",
-        link: "",
-      },
-      {
-        id: 2,
-        title: "Vue",
-        link: "",
-      },
-      {
-        id: 3,
-        title: "Pinia",
-        link: "",
-      },
-      {
-        id: 4,
-        title: "Tanstack",
-        link: "",
-      },
-      {
-        id: 5,
-        title: "Axios",
-        link: "",
-      },
-      {
-        id: 6,
-        title: "Acme UI",
-        link: "",
-      },
-      {
-        id: 7,
-        title: "Tailwind CSS",
-        link: "",
-      },
-      {
-        id: 8,
-        title: "Framer Motion",
-        link: "",
-      },
-      {
-        id: 10,
-        title: "Animate.css",
-        link: "",
-      },
+      { id: 0, title: "TypeScript" },
+      { id: 1, title: "Nuxt" },
+      { id: 2, title: "Vue" },
+      { id: 3, title: "Shadcn Nuxt" },
+      { id: 4, title: "Reka UI" },
+      { id: 5, title: "TanStack Vue Query" },
+      { id: 6, title: "VueUse" },
+      { id: 7, title: "Zod" },
+      { id: 8, title: "Lucide Vue" },
+      { id: 9, title: "Axios" },
+      { id: 10, title: "Vue Sonner" },
+    ],
+  },
+  {
+    id: 4,
+    img: "/assets/Projects4.png",
+    title: "Company Profile Website",
+    to: "https://dam-company-profile.vercel.app/",
+    tools: [
+      { id: 0, title: "React" },
+      { id: 1, title: "Vite" },
+      { id: 2, title: "TypeScript" },
+      { id: 3, title: "Tailwind CSS" },
+      { id: 4, title: "Lucide React" },
+      { id: 5, title: "Radix UI" },
+      { id: 6, title: "React Slick" },
+      { id: 7, title: "Slick Carousel" },
+      { id: 8, title: "Class Variance Authority" },
+      { id: 9, title: "Vite Webfont DL" },
+    ],
+  },
+  {
+    id: 5,
+    img: "/assets/Projects5.png",
+    title: "NestJS Backend E-Commerce",
+    to: "https://dam-backend-ecommerce.vercel.app/docs",
+    tools: [
+      { id: 0, title: "NestJS" },
+      { id: 1, title: "Prisma" },
+      { id: 2, title: "Zod" },
+      { id: 3, title: "nestjs-zod" },
+      { id: 4, title: "PostgreSQL" },
+      { id: 5, title: "JWT Auth" },
+      { id: 6, title: "Passport.js" },
+      { id: 7, title: "Midtrans" },
+      { id: 8, title: "Cloudinary" },
+      { id: 9, title: "Pino Logger" },
+      { id: 10, title: "Swagger" },
+      { id: 11, title: "Axios" },
+      { id: 12, title: "Multer" },
+      { id: 13, title: "Jest" },
+    ],
+  },
+  {
+    id: 6,
+    img: "/assets/Projects6.png",
+    title: "Nusa Region API",
+    to: "https://nusa-region-api.vercel.app/docs",
+    tools: [
+      { id: 0, title: "NestJS" },
+      { id: 1, title: "Prisma" },
+      { id: 2, title: "Zod" },
+      { id: 3, title: "nestjs-zod" },
+      { id: 4, title: "PostgreSQL" },
+      { id: 5, title: "Axios" },
+      { id: 6, title: "Pino Logger" },
+      { id: 7, title: "Swagger" },
+      { id: 8, title: "Jest" },
     ],
   },
 ];
